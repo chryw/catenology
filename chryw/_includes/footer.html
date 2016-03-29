@@ -1,35 +1,20 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+    <div class="container">
+      <div class="clear col-6">
+        <p class="copyright">©2016 Cherry Wang</p>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="col-6">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+          <li><a href="mailto:chryw@catenology.com?Subject=Hello" target="_top"><span class="fa fa-envelope-o"></span></a></li>
+          <li><a href="https://www.linkedin.com/in/cherryw"><span class="fa fa-linkedin"></span></a></li>
+          <li><a href="https://twitter.com/chryw"><span class="fa fa-twitter"></span></a></li>
+          <li><a href="https://github.com/chryw/"><span class="fa fa-github"></span></a></li>
+          <li><a href="http://codepen.io/chryw/"><span class="fa fa-codepen"></span></a></li>
+          <li><a href="https://www.behance.net/chryw"><span class="fa fa-behance"></span></a></li>
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
