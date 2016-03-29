@@ -7,15 +7,14 @@
 
 # Site settings
 title: Cherry Wang | Web Developer
-email: your-email@domain.com
+email: chryw@catenology.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Cherry Wang is a coordinator between Tech and Art, a builder who turns ideas into Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. She cares about UX Design workflow and information Find-ability. She makes information produced and used in an Organized way so it is useful and find-able.
+
+baseurl: "/chryw" # the subpath of your site, e.g. /blog
+url: "http://catenology.com" # the base hostname & protocol for your site
+twitter_username: chryw
+github_username:  chryw
 
 # Build settings
 markdown: kramdown
