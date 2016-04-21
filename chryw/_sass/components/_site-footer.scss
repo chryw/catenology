@@ -1,0 +1,33 @@
+.site-footer {
+    border-top: 1px solid $color-grey-light;
+    padding: $spacing-unit 0;
+}
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+.contact-list,
+.social-media-list {
+    list-style: none;
+    padding: 0;
+    li {
+        display: inline-block;
+    }
+    .fa {
+        font-size: 20px;
+    }
+}
+@include media-query($breakpoint-md) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
+    }
+}
+@include media-query($breakpoint-sm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
+    }
+}

@@ -18,3 +18,4 @@ github_username:  chryw
 
 # Build settings
 markdown: kramdown
+encoding: utf-8

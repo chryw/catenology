@@ -1,0 +1,58 @@
+//hr
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+}
+//self clearing
+.clear-fix,
+.container:after,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+//expand and float
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+.full-width-max {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+//text align
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+//list
+ul.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+ul.list-inline {
+    & > li {
+        display: inline-block;
+    }
+}
