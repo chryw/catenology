@@ -1,21 +1,20 @@
 .site-header {
-    border-top: 5px solid $color-grey-dark;
-    border-bottom: 1px solid $color-grey-light;
+    border-top: 2px solid $color-brand-light;
     min-height: 56px;
     // Positioning context for the mobile navigation icon
     position: relative;
+    &,&:visited {
+      color: $color-brand-light;
+    }
 }
 .site-title {
-    font-size: 26px;
+    font-size: 2em;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    &,
-    &:visited {
-        color: $color-grey-dark;
-    }
+    color: $color-brand;
 }
 .site-nav {
     float: right;
