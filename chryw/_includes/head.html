@@ -10,6 +10,5 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <script src="{{ "/javascript/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/javascript/vendor/Chart.min.js" | prepend: site.baseurl }}"></script>
+  <script data-main="{{ "/javascripts/main" | prepend: site.baseurl }}" src="{{ "/javascripts/require.js" | prepend: site.baseurl }}"></script>
 </head>
