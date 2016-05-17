@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Bowtie Icon Font"
+date:   2016-03-15 22:32:16 -0700
+categories: work
+thumbnailurl: "/images/works-iconfont.png"
+excerpt_separator: <!--more-->
+---
+Icon font for Visual Studio Team Services and visualstudio.com
+<!--more-->
+<a href="https://www.visualstudio.com/en-us/products/visual-studio-team-services-vs.aspx" target="_blank" class="link">Visual Studio Team Services</a> (formerly Visual Studio Online) is cloud services for teams to share code, track work, and ship software. The rich featured web UI many components that include icons. VSTS used to use png format icons. As the product grows rapidly, the amount of image format icons became a burden to performance as well as asset management. Rasterized image format also could not meet the HDPI display requirements. The visual of the png icons was also outdated and sometimes unnecessarily complicated.
+
+I worked with two PMs investigating a better icon solution and we decided to use icon font. It is compatible with popular browser platforms, scalable for any DPI, and it requires little code change on the dev side. We studied some existing icon font services like <a href="https://fortawesome.github.io/Font-Awesome/icons/" class="link" target="_blank">Font Awesome</a> and <a href="https://icomoon.io/" target="_blank" class="link">IcoMoon</a>. I created the icon vector source files (svg) and helped write scripts to automate build and deployment workflow.
+
+A few Web UI based apps like Azure Service Fabric Explorer, Azure Storage Explorer, visualstuido.com also started to adopt our icon font for mockup, planning or production.
+
+#### Demo page for designers and devs to learn about and look up existing icons
+
+<p data-height="800" data-theme-id="17237" data-slug-hash="KzaVWb" data-default-tab="result" data-user="chryw" class="codepen">See the Pen <a href="http://codepen.io/chryw/pen/KzaVWb/" target="_blank">Bowtie icon catalog</a> by Cherry Wang (<a href="http://codepen.io/chryw" target="_blank">@chryw</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

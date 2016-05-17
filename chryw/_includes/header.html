@@ -1,6 +1,6 @@
 <div class="container">
 <header class="site-header">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="link site-title" href="{{ site.baseurl }}/"><span class="long-line-block">Cherry Wang</span><span class="long-line-divider"> - </span><span class="long-line-block">Web Developer | IA | UX</span></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -8,10 +8,10 @@
       </a>
 
       <div class="trigger">
-          <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+          <a class="link page-link" href="{{ site.baseurl }}/">Home</a>
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="link page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>

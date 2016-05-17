@@ -56,3 +56,12 @@ ul.list-inline {
         display: inline-block;
     }
 }
+
+@include media-query($breakpoint-sm) {
+  .long-line-divider {
+    display: none;
+  }
+  .long-line-block, .long-line-block {
+    display: block;
+  }
+}

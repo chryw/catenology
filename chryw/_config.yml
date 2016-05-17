@@ -11,7 +11,7 @@ email: chryw@catenology.com
 description: > # this means to ignore newlines until "baseurl:"
   Cherry Wang is a coordinator between Tech and Art, a builder who turns ideas into Web Apps, a strategist who streamlines Design Workflow, a gatekeeper when artworks go to Archive, and an optimizer of Retrieving information from database. She cares about UX Design workflow and information Find-ability. She makes information produced and used in an Organized way so it is useful and find-able.
 
-baseurl: "/chryw" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://catenology.com" # the base hostname & protocol for your site
 twitter_username: chryw
 github_username:  chryw

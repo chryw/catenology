@@ -1,0 +1,29 @@
+{
+    "typography": {
+      "base-font-family": "\"Khula\", Helvetica, Arial, sans-serif",
+      "code-font-family": "\"Noto Serif\", Helvetica, Arial, sans-serif",
+      "base-font-size": "16px",
+      "base-font-weight": 400,
+      "small-font-size": "14px",
+      "base-line-height": 1.5,
+      "spacing-unit": "30px"
+    },
+    "colors": {
+      "color-brand": "#9c3f4a",
+      "color-accent": "#b0bb91",
+      "color-grey": "#dbdad5",
+      "color-charcoal": "#2b2b2b",
+      "color-offwhite": "#fdfdfd",
+    },
+    "breakpoints": {
+      "breakpoint-xs": "400px",
+      "breakpoint-sm": "550px",
+      "breakpoint-md": "750px",
+      "breakpoint-lg": "1000px",
+      "breakpoint-xl": "1200px"
+    },
+    "messages": {
+      "test": "Hey! This is a test message.",
+      "greeting": "Hello! I'm glad you looked at my code. I'm available for hire. If you like it or have suggestions, feel free to poke me https://twitter.com/chryw! (*・ω・)ﾉ"
+    }
+}

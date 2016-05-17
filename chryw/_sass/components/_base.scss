@@ -1,0 +1,46 @@
+hr {
+    border-color: $color-accent;
+}
+
+.home {
+  @include media-query($breakpoint-sm) {
+    h1.greeting {
+      font-size: 2em;
+    }
+  }
+}
+
+.resume {
+    & > div {
+        padding: 2em 0;
+    }
+}
+.resume-header-left, .resume-header-right {
+	display: block;
+}
+.resume-download-buttons {
+	li {
+		margin: $spacing-unit/2 $spacing-unit/2 auto;
+	}
+}
+
+@media (min-width: $breakpoint-md) {
+    .resume-header {
+			display: table;
+			width: 100%;
+    }
+		.resume-header-left, .resume-header-right {
+			width: 50%;
+			display: table-cell;
+		}
+
+    .resume-left {
+        padding-right: 2em;
+        border-right: 1px solid $color-accent;
+    }
+}
+
+.copyright {
+  font-size: $small-font-size;
+  color: $color-grey-dark;
+}

@@ -1,21 +1,21 @@
 .site-header {
     border-top: 2px solid $color-brand-light;
-    min-height: 56px;
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding-top: 1em;
     &,&:visited {
       color: $color-brand-light;
     }
+    .site-title {
+      font-size: 2em;
+      font-weight: 400;
+        @include media-query($breakpoint-sm) {
+          font-size: 1.5em;
+        }
+    }
 }
-.site-title {
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    color: $color-brand;
-}
+
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -36,7 +36,6 @@
         right: $spacing-unit / 2;
         background-color: $color-offwhite;
         border: 1px solid darken($color-offwhite, 20%);
-        border-radius: 5px;
         text-align: right;
         .menu-icon {
             display: block;

@@ -1,0 +1,29 @@
+.btn {
+    display: inline-block;
+    background: none;
+    border: 2px solid transparent;
+    text-decoration: none;
+    text-align: center;
+    font-size: $base-font-size;
+		font-weight: $base-font-weight;
+		min-width: 12em;
+		line-height: 2em;
+    text-transform: uppercase;
+    outline: 0;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.btn-sm {
+		min-width: 6em;
+		line-height: 1em;
+		font-size: $small-font-size;
+}
+.btn-lg {
+	min-width: 15em;
+	line-height: 2.5em;
+	font-size: $base-font-size * 1.25;
+}
+.btn-brand {
+    @include button-hover($color-brand, #fff);
+}

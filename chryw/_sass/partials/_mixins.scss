@@ -3,3 +3,19 @@
         @content;
     }
 }
+
+@mixin button-hover($color-bg, $color-fg) {
+	border-color: $color-bg;
+	color: $color-bg;
+
+	&:hover {
+		background-color: $color-bg;
+		color: $color-fg;
+		transition: background 0.3s ease;
+	}
+
+	&:active {
+		background-color: darken($color-bg, 10%);
+		border-color: darken($color-bg, 10%);
+	}
+}
