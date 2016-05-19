@@ -1,0 +1,22 @@
+
+$color-brand: #383F59;
+$color-accent: #B8AFA0;
+$color-smoke: #D1CFD0;
+$color-latte: #6E6763;
+$color-mocha: #3B383B;
+$color-water: #7486A3;
+$color-black: #222222;
+$color-white: #f2f2f2;
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,400italic,700,700italic);
+$font-family-base: 'Merriweather Sans',"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 1em;
+
+$breakpoint-xs: 400px;
+$breakpoint-sm: 550px;
+$breakpoint-md: 750px;
+$breakpoint-lg: 1000px;
+$breakpoint-xl: 1200px;
+
+// spacing
+$spacing-unit: 16px;

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Laoreet pellentesque."
+date:   2016-05-16 19:05:20 -0700
+categories: awards
+thumbnailurl: "http://placehold.it/350"
+excerpt_separator: <!--more-->
+---
+Volutpat eget. Id molestiae, natoque vestibulum proin. Sit quam cupidatat, pellentesque posuere. Non quam phasellus, vel sint. Amet est integer, arcu accumsan. In vehicula montes. In eu aenean. Vehicula elit blandit. Aliquet sapiente facilisi, amet at orci. Eget mauris elit, sed eget, id urna. In lacus sociosqu. Purus ut
+<!--more-->

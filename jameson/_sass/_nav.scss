@@ -1,0 +1,97 @@
+nav {
+  background-color: $color-brand;
+  color: $color-white;
+}
+
+.navbar-brand {
+  padding-top: $spacing-unit *3;
+  padding-bottom: $spacing-unit *3;
+  &>div {
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.navbar-nav {
+  position: relative;
+}
+.navbar-checkbox {
+  display: none;
+}
+.navbar-hamburger {
+  position: absolute;
+  right: 0;
+  top: -32px;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: fade-out($color-white, .3);
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    color: $color-white;
+  }
+  &>span {
+    &:before {
+      content: "\f0c9";
+    }
+  }
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: $color-latte;
+  position: absolute;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  @include transition(all, .3s, ease);
+  a {
+    @include hyperlink($color-white);
+    padding: $spacing-unit 0;
+    width: 100%;
+  }
+  &>li {
+    width: 100%;
+  }
+}
+
+.navbar-checkbox {
+  &:checked {
+    ~ .navbar-menu {
+      height: auto;
+      opacity: 1;
+      visibility: visible;
+    }
+    ~ .navbar-hamburger {
+      &>span {
+        &:before {
+          content: "\f00d";
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .navbar-hamburger {
+    display: none;
+  }
+  .navbar-menu {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    position: relative;
+    &>li {
+      display: inline-block;
+      width: auto;
+      padding: $spacing-unit;
+    }
+  }
+}

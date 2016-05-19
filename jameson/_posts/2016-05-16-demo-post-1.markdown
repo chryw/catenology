@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Tempora dictum."
+date:   2016-05-16 19:05:20 -0700
+categories: awards
+thumbnailurl: "http://placehold.it/350"
+excerpt_separator: <!--more-->
+---
+Fringilla scelerisque justo, vivamus mauris aliquam, mus urna. Pellentesque sollicitudin natoque. Curabitur at. Lectus ultrices, quis metus diam, lorem molestie viverra. Sociosqu id, porttitor pellentesque risus, lacinia massa. Et tincidunt. Ante eget tempus, nulla sollicitudin rhoncus. Faucibus neque, lectus metus amet, nam at. Nibh sed. Mattis sagittis. Diam mauris, maecenas non, vel pellentesque vivamus. Nunc mi venenatis
+<!--more-->

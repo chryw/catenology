@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "In mauris non, vivamus ultricies."
+date:   2016-05-16 19:05:20 -0700
+categories: awards
+thumbnailurl: "http://placehold.it/350"
+excerpt_separator: <!--more-->
+---
+
+Sem ac facilisis, vitae tellus interdum. Dui urna placerat, sit nam non, sed volutpat suspendisse. Rhoncus tortor, mi nam consectetuer. Mi in, libero a. Velit sodales mauris. Sit aliquam sed, nulla consequat felis, nunc semper
+
+<!--more-->

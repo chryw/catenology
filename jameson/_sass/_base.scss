@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+//header
+.site-title {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    a {
+        display: inline-block;
+        &,
+        &:visited {
+            color: $color-white;
+        }
+    }
+}
+.avatar {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 8px solid $color-white;
+}
+//page-content
+.page-content {
+    margin-top: $spacing-unit *2;
+    margin-bottom: $spacing-unit *2;
+}
+//recent
+.recent-list {
+    width: 100%;
+    & > li {
+        box-sizing: border-box;
+        border: 0;
+        @media (min-width: $breakpoint-md) {
+            width: 50%;
+            min-height: 40vw;
+            float: left;
+            & > * {
+                padding-left: $spacing-unit;
+                padding-right: $spacing-unit;
+            }
+        }
+        .recent-title {
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+.recent-summary {}
+//footer
+footer {
+    background-color: $color-smoke;
+    .row {
+        padding-top: $spacing-unit;
+    }
+}
+.text-muted {
+    font-size: 0.8em;
+    color: fade-out($color-brand, .5);
+}

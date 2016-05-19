@@ -1,0 +1,24 @@
+<header class="site-header">
+    <nav>
+        <div class="navbar-brand">
+            <div class="avatar center-block">
+                <img src="http://placehold.it/550" class="img-responsive img-circle" title="" alt="" />
+            </div>
+            <div class="site-title">
+                <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            </div>
+        </div>
+        <div class="navbar-nav">
+            <input class="navbar-checkbox" type="checkbox" id="navbarCheckbox" />
+            <label class="navbar-hamburger" for="navbarCheckbox" title="Toggle navigation menu"><span aria-hidden="true" class="fa"></span></label>
+            <ul class="navbar-menu text-center">
+              {% assign pages_list = site.pages | sort: "weight" %}
+                {% for my_page in pages_list %}
+                  {% if my_page.title %}
+                    <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>
