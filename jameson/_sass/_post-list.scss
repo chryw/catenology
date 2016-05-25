@@ -1,0 +1,40 @@
+.post-list {
+    width: 100%;
+    & > li {
+        box-sizing: border-box;
+        border: 0;
+        @media (min-width: $breakpoint-md) {
+            width: 50%;
+            min-height: 40vw;
+            float: left;
+            padding-right: $spacing-unit *2;
+        }
+        .post-title {
+            white-space: nowrap;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: $spacing-unit/2;
+            a {
+              @include link-chopsticks($color-brand);
+            }
+        }
+        .post-thumbnail {
+          display: block;
+          &>img {
+            width: 100%;
+          }
+        }
+        .post-summary {
+          padding-top: $spacing-unit;
+        }
+    }
+    &.post-list-sm {
+      & > li {
+        @media (min-width: $breakpoint-md) {
+          width: 33%;
+          min-height: 20vw;
+        }
+      }
+    }
+}

@@ -2,8 +2,9 @@
 layout: post
 title:  "In mauris non, vivamus ultricies."
 date:   2016-05-16 19:05:20 -0700
-categories: awards
-thumbnailurl: "http://placehold.it/1000/8ea4c9/000000"
+categories: arts
+thumbnailurl: "http://placehold.it/1000/55874f/ffffff"
+imageurllist: ["http://placehold.it/1000","http://placehold.it/1000", "http://placehold.it/1000","http://placehold.it/1000"]
 excerpt_separator: <!--more-->
 ---
 

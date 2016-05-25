@@ -12,6 +12,7 @@
             <input class="navbar-checkbox" type="checkbox" id="navbarCheckbox" />
             <label class="navbar-hamburger" for="navbarCheckbox" title="Toggle navigation menu"><span aria-hidden="true" class="fa"></span></label>
             <ul class="navbar-menu text-center">
+              <li><a class="page-link" href="/">Home</a></li>
               {% assign pages_list = site.pages | sort: "weight" %}
                 {% for my_page in pages_list %}
                   {% if my_page.title %}

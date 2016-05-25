@@ -84,3 +84,8 @@ a {
         color: lighten($color-brand, 20%);
     }
 }
+
+.text-muted {
+    font-size: 0.8em;
+    color: fade-out($color-brand, .5);
+}

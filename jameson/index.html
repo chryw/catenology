@@ -1,33 +1,28 @@
 ---
 layout: default
 ---
-
 <div class="home">
 	<section class="intro">
-		<div class="container">
-			<p>Cum lorem, suscipit purus ipsum eu dui suspendisse sed. Dui nam, suspendisse aliquam est orci nullam, urna varius urna nibh convallis sed dictumst, in consectetuer quis amet massa pulvinar sollicitudin. Aenean arcu sed sem id nullam sed, eleifend nulla
-				mauris dignissim accumsan suspendisse, vel consectetuer, magna fusce est erat, vulputate lorem mauris pharetra quam sem tellus. Nec pellentesque risus feugiat consequat. Nullam turpis, quia aliquam</p>
-		</div>
+		<p>Cum lorem, suscipit purus ipsum eu dui suspendisse sed. Dui nam, suspendisse aliquam est orci nullam, urna varius urna nibh convallis sed dictumst, in consectetuer quis amet massa pulvinar sollicitudin. Aenean arcu sed sem id nullam sed, eleifend nulla
+			mauris dignissim accumsan suspendisse, vel consectetuer, magna fusce est erat, vulputate lorem mauris pharetra quam sem tellus. Nec pellentesque risus feugiat consequat. Nullam turpis, quia aliquam</p>
 	</section>
-	<section class="recent">
-		<div class="container">
-			<ul class="list-unstyled recent-list">
-				{% assign recent_posts = site.posts | sort: "date"  %}
+	<section>
+		<ul class="list-unstyled post-list">
+			{% assign recent_posts = site.posts | sort: "date" %}
 				{% for post in recent_posts | limit: 4 %}
-				<li>
-					<h6 class="text-muted">{{ post.date }}</h6>
-					<h5 class="recent-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-					{% if post.thumbnailurl %}
-						<a class="recent-thumbnail text-center" href="{{ post.url }}">
-							<img src="{{ post.thumbnailurl }}" class="img-responsive" alt="{{ post.title }}" />
-						</a>
-					{% endif %}
-					<div class="recent-summary">
-						<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-					</div>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
+			<li>
+				<h5 class="post-title"><a href="{{ post.url }}">{{ post.title | truncatewords: 5 }}</a></h5>
+				{% if post.thumbnailurl %}
+				<h6 class="post-date text-muted">{{ post.date }}</h6>
+				<a class="post-thumbnail" href="{{ post.url }}">
+					<img src="{{ post.thumbnailurl }}" class="img-responsive" alt="{{ post.title }}" />
+				</a>
+				{% endif %}
+				<div class="post-summary">
+					<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 30 }}</p>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
 	</section>
 </div>

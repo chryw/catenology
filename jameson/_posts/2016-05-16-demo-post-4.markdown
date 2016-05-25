@@ -3,7 +3,7 @@ layout: post
 title:  "Cras erat."
 date:   2016-05-16 19:05:20 -0700
 categories: awards
-thumbnailurl: "http://placehold.it/350"
+thumbnailurl: "http://placehold.it/1000/ffc926/000000"
 excerpt_separator: <!--more-->
 ---
 Wisi ligula, arcu odio, turpis curabitur. Fringilla vestibulum sagittis, a risus, pharetra vestibulum ipsum. Ipsum laoreet, massa non turpis, aenean ac. Turpis felis odio, ut et, leo eget. Nulla rhoncus, ac est ipsum, nunc nec in. Et eget sagittis, nec elementum nunc, iaculis fermentum elit.

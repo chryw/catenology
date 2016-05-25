@@ -3,7 +3,7 @@ layout: post
 title:  "Convallis libero."
 date:   2016-05-16 19:05:20 -0700
 categories: awards
-thumbnailurl: "http://placehold.it/350"
+thumbnailurl: "http://placehold.it/1000/5c4838/ffffff"
 excerpt_separator: <!--more-->
 ---
 Erat posuere, sed est. Accumsan maecenas, id mauris ut, cras in. Malesuada proin aliquam, lectus vivamus faucibus. Tempor dolor curabitur, quisque vel in. Ut nunc egestas. Scelerisque culpa eu. Deleniti integer, vivamus etiam. Turpis et, ut lorem odio, vitae eget.
