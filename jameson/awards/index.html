@@ -1,0 +1,29 @@
+---
+layout: page
+title: Awards
+weight: 2
+---
+<div class="awards">
+	<section class="intro">
+		<p>Cum lorem, suscipit purus ipsum eu dui suspendisse sed. Dui nam, suspendisse aliquam est orci nullam, urna varius urna nibh convallis sed dictumst, in consectetuer quis amet massa pulvinar sollicitudin. Aenean arcu sed sem id nullam sed, eleifend nulla.</p>
+
+	</section>
+	<section>
+		<ul class="list-unstyled post-list">
+			{% assign award_posts = site.categories.awards | sort: "date" %}
+      {% for post in award_posts %}
+			<li>
+				<h5 class="post-title"><a href="{{ post.url }}">{{ post.title | truncatewords: 5 }}</a></h5>
+				{% if post.thumbnailurl %}
+				<a class="post-thumbnail" href="{{ post.url }}">
+					<img src="{{ post.thumbnailurl }}" class="img-responsive" alt="{{ post.title }}" />
+				</a>
+				{% endif %}
+				<div class="post-summary">
+					<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>
