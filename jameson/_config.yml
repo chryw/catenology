@@ -12,6 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jameson.catenology.com" # the base hostname & protocol for your site
-
+paginate: 8
+paginate_path: "/blog/page:num/"
 # Build settings
 markdown: kramdown
+gems: [jekyll-paginate]

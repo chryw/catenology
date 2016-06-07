@@ -6,8 +6,8 @@ body {
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: $font-family-base;
-    color: $color-black;
+    font-family: $font-family-sans;
+    color: $color-grey-dark;
 }
 %vertical-rhythm,
 h1,

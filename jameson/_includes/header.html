@@ -13,12 +13,10 @@
             <label class="navbar-hamburger" for="navbarCheckbox" title="Toggle navigation menu"><span aria-hidden="true" class="fa"></span></label>
             <ul class="navbar-menu text-center">
               <li><a class="page-link" href="/">Home</a></li>
-              {% assign pages_list = site.pages | sort: "weight" %}
-                {% for my_page in pages_list %}
-                  {% if my_page.title %}
-                    <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
+              <li><a class="page-link" href="/resume/">Resume</a></li>
+              <li><a class="page-link" href="/awards/">Awards</a></li>
+              <li><a class="page-link" href="/arts/">Arts</a></li>
+              <li><a class="page-link" href="/blog/">Blog</a></li>
             </ul>
         </div>
     </nav>

@@ -31,6 +31,10 @@
     }
   }
 }
+.disabled {
+  pointer-events: none;
+  opacity: .5;
+}
 
 .container:after,
 .row:after,
