@@ -1,72 +1,7 @@
-/*----------------------
-mixins.scss*/
-
-
-//breakpoints
-@mixin media-query($breakpoint) {
-     @media screen and (min-width: $breakpoint){
-        @content;
-    }
-}
-
-//generic animation keyframes
-@mixin keyframes($animation-name) {
-    @-webkit-keyframes #{$animation-name} {
-        @content;
-    }
-    @-moz-keyframes #{$animation-name} {
-        @content;
-    }
-    @-ms-keyframes #{$animation-name} {
-        @content;
-    }
-    @-o-keyframes #{$animation-name} {
-        @content;
-    }
-    @keyframes #{$animation-name} {
-        @content;
-    }
-}
-
-@mixin animation($str) {
-  -webkit-animation: #{$str};
-  -moz-animation: #{$str};
-  -ms-animation: #{$str};
-  -o-animation: #{$str};
-  animation: #{$str};
-}
-
-//generic transition
-@mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
-}
-
-//generic transform
-@mixin transform($transforms) {
-  -moz-transform: $transforms;
-  -o-transform: $transforms;
-  -ms-transform: $transforms;
-  -webkit-transform: $transforms;
-  transform: $transforms;
-}
-
-//button hover
-@mixin button-hover($color-bg, $color-fg) {
-	border-color: $color-bg;
-	color: $color-bg;
-
-	&:hover {
-		background-color: $color-bg;
-		color: $color-fg;
-		transition: background 0.3s ease;
-	}
-
-	&:active {
-		background-color: darken($color-bg, 10%);
-		border-color: darken($color-bg, 10%);
-	}
-}
+// _mixins.scss
+@import 'mixins/animation';
+@import 'mixins/breakpoints';
+@import 'mixins/buttons';
+@import 'mixins/links';
+@import 'mixins/transform';
+@import 'mixins/transition';

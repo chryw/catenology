@@ -1,3 +1,4 @@
+// _typography.scss
 html {
     font-size: 62.5%;
 }
@@ -72,17 +73,6 @@ h6 {
 }
 p {
     margin-top: 0;
-}
-a {
-    text-decoration: none;
-    &,
-    &:visited {
-        color: $color-brand;
-    }
-    &:focus,
-    &:hover {
-        color: lighten($color-brand, 20%);
-    }
 }
 
 .text-muted {

@@ -1,6 +1,4 @@
-/*
-_utilities.scss
-*/
+// _utilities.scss
 .clearfix,
 .container:after,
 .row:after {
@@ -39,12 +37,20 @@ _utilities.scss
 .text-center {
     text-align: center !important;
 }
-// Toggling content
-// -------------------------
-// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
 .hidden {
     display: none !important;
 }
 .invisible {
     visibility: hidden;
+}
+
+//list
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+.list-inline {
+  &>li {
+    display: inline-block;
+  }
 }
