@@ -1,15 +1,23 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var minifycss = require('gulp-minify-css');
-var concat = require('gulp-concat');
-var iconfont = require('gulp-iconfont');
-var svgmin = require('gulp-svgmin');
-var consolidate = require('gulp-consolidate');
-var rename = require('gulp-rename');
-var foreach = require('gulp-foreach');
-var exec = require('child_process').exec;
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const minifycss = require('gulp-minify-css');
+const concat = require('gulp-concat');
+const iconfont = require('gulp-iconfont');
+const svgmin = require('gulp-svgmin');
+const consolidate = require('gulp-consolidate');
+const rename = require('gulp-rename');
+const foreach = require('gulp-foreach');
+const exec = require('child_process').exec;
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
+const del = require('del');
 
-gulp.task('default', ['iconfont', 'styles', 'doc']);
+gulp.task('default', ['iconfont', 'styles', 'scripts']);
+
+//clean dist folder
+gulp.task('clean', function() {
+    return del(['dist']);
+});
 
 //generate icon font from svg files
 gulp.task('iconfont', function() {
@@ -36,7 +44,7 @@ gulp.task('iconfont', function() {
         }))
         //generate _icons.scss
         .on('glyphs', function(glyphs) {
-            var options = {
+            const options = {
                 fontName: 'catif',
                 fontPath: 'fonts/',
                 className: 'catif',
@@ -60,7 +68,7 @@ gulp.task('iconfont', function() {
 
 //compile stylesheet
 gulp.task('styles', function() {
-    gulp.src('sass/catfw.scss')
+    gulp.src('sass/main.scss')
         //compile sass
         .pipe(sass())
         .pipe(gulp.dest('dist'))
@@ -68,6 +76,21 @@ gulp.task('styles', function() {
         .pipe(minifycss())
         .pipe(rename('catfw.min.css'))
         .pipe(gulp.dest('dist'));
+});
+
+//compile javascript
+gulp.task('scripts', function() {
+    gulp.src('js/main.js')
+        //compile babel
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(rename('catfw.js'))
+        .pipe(gulp.dest('dist'))
+        //minify
+        .pipe(uglify())
+        .pipe(rename('catfw.min.js'))
+        .pipe(gulp.dest('dist'))
 });
 
 //just concat a sass file
@@ -79,9 +102,13 @@ gulp.task('justsass', function() {
 
 //generate documentation site and build it with jekyll
 gulp.task('doc', function(cb) {
-    //grab assets
+    //clean referenced assets
+    del(['doc/css/catfw.min.css','doc/css/fonts/catif.*','doc/js/catfw.min.js']);
+    //grab new assets
     gulp.src('dist/catfw.min.css')
         .pipe(gulp.dest('doc/css/'));
+    gulp.src('dist/catfw.min.js')
+        .pipe(gulp.dest('doc/js/'));
     gulp.src('dist/fonts/*')
         .pipe(gulp.dest('doc/css/fonts/'));
     //jekyll build the site

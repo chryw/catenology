@@ -56,6 +56,23 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0; }
 
+.text-muted {
+  font-size: 0.8em;
+  opacity: 0.5; }
+
+.text-small,
+small {
+  font-size: 0.8em; }
+
+.text-caption {
+  font-size: 1em; }
+
+.text-feature {
+  font-size: 2.4rem; }
+
+.text-feature-body {
+  font-size: 1.5em; }
+
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem; }
@@ -68,13 +85,21 @@ h6 {
   h5 {
     font-size: 2.4rem; }
   h6 {
+    font-size: 1.5rem; }
+  .text-muted {
+    font-size: 1.5rem; }
+  .text-small,
+  small {
+    font-size: 1.2rem; }
+  .text-caption {
+    font-size: 2.4rem; }
+  .text-feature {
+    font-size: 3.0rem; }
+  .text-feature-body {
     font-size: 1.5rem; } }
 
 p {
   margin-top: 0; }
-
-.text-muted {
-  color: rgba(252, 188, 80, 0.5); }
 
 .container {
   position: relative;
@@ -229,8 +254,7 @@ a {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  text-align: center;
-  line-height: 24px;
+  line-height: 0.8em;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -303,14 +327,50 @@ a {
 .catif-chevron-right:before {
   content: "\E002"; }
 
+.catif-chevron-up:before {
+  content: "\E003"; }
+
 .catif-chevron-down:before {
   content: "\E004"; }
 
-.catif-chevron-up:before {
+.catif-hamburger:before {
   content: "\E005"; }
 
-.catif-hamburger:before {
+.catif-github:before {
   content: "\E006"; }
+
+.catif-facebook:before {
+  content: "\E007"; }
+
+.catif-codepen:before {
+  content: "\E008"; }
+
+.catif-dribbble:before {
+  content: "\E009"; }
+
+.catif-linkedin:before {
+  content: "\E010"; }
+
+.catif-twitter:before {
+  content: "\E011"; }
+
+.catif-web:before {
+  content: "\E012"; }
+
+.catif-pinterest:before {
+  content: "\E013"; }
+
+.catif-instagram:before {
+  content: "\E014"; }
+
+.catif-wechat:before {
+  content: "\E015"; }
+
+.catif-mail:before {
+  content: "\E01A"; }
+
+.catif-share:before {
+  content: "\E01B"; }
 
 .clearfix,
 .container:after,

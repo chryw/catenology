@@ -51,6 +51,23 @@ h6 {
     line-height: 1.6;
     letter-spacing: 0;
 }
+.text-muted {
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+.text-small,
+small {
+    font-size: 0.8em;
+}
+.text-caption {
+    font-size: 1em;
+}
+.text-feature {
+    font-size: 2.4rem;
+}
+.text-feature-body {
+    font-size: 1.5em;
+}
 @media (min-width: 550px) {
     h1 {
         font-size: 5.0rem;
@@ -70,11 +87,23 @@ h6 {
     h6 {
         font-size: 1.5rem;
     }
+    .text-muted {
+        font-size: 1.5rem;
+    }
+    .text-small,
+    small {
+        font-size: 1.2rem;
+    }
+    .text-caption {
+        font-size: 2.4rem;
+    }
+    .text-feature {
+        font-size: 3.0rem;
+    }
+    .text-feature-body {
+        font-size: 1.5rem;
+    }
 }
 p {
     margin-top: 0;
-}
-
-.text-muted {
-    color: fade-out($color-brand, .5);
 }

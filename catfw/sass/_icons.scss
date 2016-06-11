@@ -17,8 +17,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  text-align: center;
-  line-height: 24px;
+  line-height: 0.8em;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -95,15 +94,62 @@
 	content: "\E002";
 }
 
+.catif-chevron-up:before {
+	content: "\E003";
+}
+
 .catif-chevron-down:before {
 	content: "\E004";
 }
 
-.catif-chevron-up:before {
+.catif-hamburger:before {
 	content: "\E005";
 }
 
-.catif-hamburger:before {
+.catif-github:before {
 	content: "\E006";
 }
-
+
+.catif-facebook:before {
+	content: "\E007";
+}
+
+.catif-codepen:before {
+	content: "\E008";
+}
+
+.catif-dribbble:before {
+	content: "\E009";
+}
+
+.catif-linkedin:before {
+	content: "\E010";
+}
+
+.catif-twitter:before {
+	content: "\E011";
+}
+
+.catif-web:before {
+	content: "\E012";
+}
+
+.catif-pinterest:before {
+	content: "\E013";
+}
+
+.catif-instagram:before {
+	content: "\E014";
+}
+
+.catif-wechat:before {
+	content: "\E015";
+}
+
+.catif-mail:before {
+	content: "\E01A";
+}
+
+.catif-share:before {
+	content: "\E01B";
+}

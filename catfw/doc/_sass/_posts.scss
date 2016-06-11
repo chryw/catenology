@@ -1,0 +1,17 @@
+//icons
+.post-icons {
+	li {
+		width: 16%;
+		height: 100px;
+		position: relative;
+	}
+	.post-icon-glyph {
+		color: $color-grey;
+		font-size: 48px;
+	}
+	.post-icon-meta {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
