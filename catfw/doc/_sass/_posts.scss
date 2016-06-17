@@ -15,3 +15,15 @@
 		text-overflow: ellipsis;
 	}
 }
+
+//post-grid
+.post-grid {
+	.row {
+		padding-top: $spacing-unit-sm;
+		padding-bottom: $spacing-unit-sm;
+	}
+	.column, .columns {
+		background-color: $color-brand;
+		text-align: center;
+	}
+}
