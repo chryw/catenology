@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catenology Framework</title>
+    <description>The frontend toolkit that powers Catenology websites.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 17 Jun 2016 12:24:38 -0700</pubDate>
+    <lastBuildDate>Fri, 17 Jun 2016 12:24:38 -0700</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Grid System</title>
+        <description>&lt;div class=&quot;post-grid&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;p&gt;The grid system is based on 12 columns with a max width of 960px. .container class is the main wrapper of the grid system. To use the grid system, wrap content with &lt;code class=&quot;css&quot;&gt;.row&lt;/code&gt; class first, then apply column classes to the children.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;container&quot;&amp;gt;
+	&amp;lt;div class=&quot;row&quot;&amp;gt;
+		&amp;lt;div class=&quot;four columns&quot;&amp;gt;four&amp;lt;/div&amp;gt;
+		&amp;lt;div class=&quot;eight columns&quot;&amp;gt;eight&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;twelve columns&quot;&gt;twelve&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;one column&quot;&gt;one&lt;/div&gt;
+		&lt;div class=&quot;eleven columns&quot;&gt;eleven&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;two columns&quot;&gt;two&lt;/div&gt;
+		&lt;div class=&quot;ten columns&quot;&gt;ten&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;three columns&quot;&gt;three&lt;/div&gt;
+		&lt;div class=&quot;nine columns&quot;&gt;nine&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;four columns&quot;&gt;four&lt;/div&gt;
+		&lt;div class=&quot;eight columns&quot;&gt;eight&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;five columns&quot;&gt;five&lt;/div&gt;
+		&lt;div class=&quot;seven columns&quot;&gt;seven&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;six columns&quot;&gt;six&lt;/div&gt;
+		&lt;div class=&quot;six columns&quot;&gt;six&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;four columns&quot;&gt;four&lt;/div&gt;
+		&lt;div class=&quot;four columns&quot;&gt;four&lt;/div&gt;
+		&lt;div class=&quot;four columns&quot;&gt;four&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;three columns&quot;&gt;three&lt;/div&gt;
+		&lt;div class=&quot;three columns&quot;&gt;three&lt;/div&gt;
+		&lt;div class=&quot;six columns&quot;&gt;six&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p&gt;Columns can be offset:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&quot;container&quot;&amp;gt;
+	&amp;lt;div class=&quot;row&quot;&amp;gt;
+		&amp;lt;div class=&quot;four columns offset-by-two&quot;&amp;gt;four&amp;lt;/div&amp;gt;
+		&amp;lt;div class=&quot;four columns&quot;&amp;gt;four&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;four columns offset-by-two&quot;&gt;four&lt;/div&gt;
+		&lt;div class=&quot;four columns&quot;&gt;four&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;six columns offset-by-three&quot;&gt;six&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;six columns offset-by-six&quot;&gt;six&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 13:50:21 -0800</pubDate>
+        <link>/style/2016/01/05/grid.html</link>
+        <guid isPermaLink="true">/style/2016/01/05/grid.html</guid>
+        
+        
+        <category>style</category>
+        
+      </item>
+    
+      <item>
+        <title>Typography</title>
+        <description></description>
+        <pubDate>Tue, 05 Jan 2016 13:50:21 -0800</pubDate>
+        <link>/style/2016/01/05/typography.html</link>
+        <guid isPermaLink="true">/style/2016/01/05/typography.html</guid>
+        
+        
+        <category>style</category>
+        
+      </item>
+    
+      <item>
+        <title>Hyperlink</title>
+        <description></description>
+        <pubDate>Mon, 04 Jan 2016 13:50:21 -0800</pubDate>
+        <link>/style/2016/01/04/hyperlink.html</link>
+        <guid isPermaLink="true">/style/2016/01/04/hyperlink.html</guid>
+        
+        
+        <category>style</category>
+        
+      </item>
+    
+      <item>
+        <title>Icons</title>
+        <description>&lt;div class=&quot;post-icons&quot;&gt;
+	&lt;h2&gt;Interface&lt;/h2&gt;
+	&lt;ul class=&quot;list-unstyled list-inline text-center&quot;&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-logo-simple&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small text-small&quot;&gt;
+				logo-simple
+				&lt;br /&gt; E000
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-chevron-left&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				chevron-left
+				&lt;br /&gt; E001
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-chevron-right&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				chevron-right
+				&lt;br /&gt; E002
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-chevron-up&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				chevron-up
+				&lt;br /&gt; E003
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-chevron-down&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				chevron-down
+				&lt;br /&gt; E004
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-hamburger&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				hamburger
+				&lt;br /&gt; E005
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-github&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				github
+				&lt;br /&gt; E006
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-facebook&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				facebook
+				&lt;br /&gt; E007
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-codepen&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				codepen
+				&lt;br /&gt; E008
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-dribbble&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				dribbble
+				&lt;br /&gt; E009
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-linkedin&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				linkedin
+				&lt;br /&gt; E010
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-twitter&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				twitter
+				&lt;br /&gt; E011
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-web&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				web
+				&lt;br /&gt; E012
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-pinterest&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				pinterest
+				&lt;br /&gt; E013
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-instagram&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				instagram
+				&lt;br /&gt; E014
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-wechat&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				wechat
+				&lt;br /&gt; E015
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-mail&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				mail
+				&lt;br /&gt; E01A
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;post-icon-glyph&quot;&gt;&lt;span class=&quot;catif catif-share&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+			&lt;div class=&quot;post-icon-meta text-small&quot;&gt;
+				share
+				&lt;br /&gt; E01B
+			&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2016 13:50:21 -0800</pubDate>
+        <link>/style/2016/01/03/icons.html</link>
+        <guid isPermaLink="true">/style/2016/01/03/icons.html</guid>
+        
+        
+        <category>style</category>
+        
+      </item>
+    
+      <item>
+        <title>Buttons</title>
+        <description></description>
+        <pubDate>Sat, 02 Jan 2016 13:50:21 -0800</pubDate>
+        <link>/style/2016/01/02/buttons.html</link>
+        <guid isPermaLink="true">/style/2016/01/02/buttons.html</guid>
+        
+        
+        <category>style</category>
+        
+      </item>
+    
+  </channel>
+</rss>
